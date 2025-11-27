@@ -111,7 +111,7 @@ Helpful answer:
         """
         try:
             response = self.qa.run(query)
-            print("Hi")
+            print("Hello ")
             return response  # 'response' is now a string containing only the 'result'
         except Exception as e:
             st.error(f"⚠️ An error occurred while processing your request: {e}")
