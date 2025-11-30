@@ -108,6 +108,7 @@ elif choice == "🤖 Chatbot":
                         encode_kwargs={"normalize_embeddings": True},
                         qdrant_url="http://localhost:6333",
                         collection_name="vector_db"
+                        Print("Hello from embeddings manager"  )
                     )
                     
                     with st.spinner("🔄 Embeddings are in process..."):
